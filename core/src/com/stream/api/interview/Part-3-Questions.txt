@@ -1,0 +1,30 @@
+Top 20 coding interview questions in streams API.
+
+Given a list of employee objects, where each employee has properties:
+empname, empId, city, Salary, department
+
+Basics:
+1. Find all employees from a specific city and get the count.
+2. Find all employees where salary is greater than a particular value.
+3. Print all the employee names only in upper case and alphabetical order
+4. Get the first employee where dept is "HR" and if not available throw exception.
+5. Get the total salary of all employees in a specific department.
+
+Intermediate:
+6. Check if all employees have a salary greate than a specific Value
+7. Get the sum of salaries of all employees and the average salary
+8. Get a Map of employee Names and their salaries.
+9. Print the employee deatils from highest to lowest salary
+10. Get the employees with the highest salary
+11. Get the employees with the second highest salary.
+12. Get the employees who are earning above the average salary
+13. Get the employee with the longest name. 
+
+Advanced:
+14. List all employees by department
+15. Get the count of employees by department
+16. Get the sum of salaries of all employees by department
+17. Get the avarage salaries of all employees per department
+18. Check if all employees belong to a specific department
+19. List all employees grouping by cities but belong to the same department.
+20. Find the department with the highest average salary

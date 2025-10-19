@@ -1,5 +1,7 @@
 package com.example.springbootcrudproject.entity;
 
+import java.util.UUID;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -15,8 +17,8 @@ import lombok.NoArgsConstructor;
 @Data
 public class Product {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.UUID)
+    private UUID id;
     private String name;
     private Double price;
     private Integer quantity;

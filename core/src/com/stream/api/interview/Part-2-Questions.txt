@@ -1,0 +1,21 @@
+Top coding interview questions in Streams API - Using Numbers:
+Basics
+1. Get the even/odd numbers from an array of numbers and list of numbers
+2. Get the even/odd numbers between a range
+3. Sort a list of integers in desending / ascending order
+4. Calculate the sum and average of numbers in an array and list of numbers 
+5. Find the maximum/Minimum number in an array/list of numbers
+
+Intermediate
+6. Remove duplicate ellemnts from an array/list of integers. 
+7. Convert a list/array of integers to a list of their squares and print them
+8. Find the sum of squares of all the numbers in the array / list.
+9. Get the second largest number and second smallest number in a list/array
+10. Get the first number greater than 50 in a list/array
+
+Advanced:
+11. Get a sum of numbers of a two dimensional array and list of list of integers
+12. Convert an array of integers into a map where the key is the number and the value is its square.
+13. Partition an array of integers into two groups: even and odd using Streams.
+14. Calculate the product of all numbers in the array using reduce.
+15. Implement a parallel stream that computes the sum of squares of numbers in an array.

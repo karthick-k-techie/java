@@ -9,14 +9,15 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 @Repository
-public interface ProductRepository extends JpaRepository<Product, Long> {
+public interface ProductRepository extends JpaRepository<Product, UUID> {
     Product getProductByName(String name);
 
     Product getProductByPrice(Double price);
 
-    Product getProductByIdAndName(Long id, String name);
+    Product getProductByIdAndName(UUID id, String name);
 
     @Query("select p from Product p")
     List<Product> getAllProductsUsingJPQL();

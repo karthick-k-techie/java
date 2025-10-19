@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.UUID;
 
 @Service
 public class ProductService {
@@ -19,7 +20,7 @@ public class ProductService {
         return productRepository.findAll();
     }
 
-    public Optional<Product> findById(Long id) {
+    public Optional<Product> findById(UUID id) {
         return productRepository.findById(id);
     }
 
@@ -27,7 +28,7 @@ public class ProductService {
         return productRepository.save(product);
     }
 
-    public void deleteById(Long id) {
+    public void deleteById(UUID id) {
         productRepository.deleteById(id);
     }
 
